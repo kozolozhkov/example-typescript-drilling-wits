@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import { Button } from '@corva/ui/components';
 import userEvent from '@testing-library/user-event';
+import * as React from 'react';
 
 const Toggle = () => {
   const [isOn, setIsOn] = useState<boolean>(false);
